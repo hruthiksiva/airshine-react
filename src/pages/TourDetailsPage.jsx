@@ -1,27 +1,30 @@
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import dubai1 from '../assets/images/trips/dubai/dubai-1.jpeg'
+import dubai2 from '../assets/images/trips/dubai/dubai-2.jpeg'
 
 const TourDetailsPage = () => {
   return (
     <div className="container mx-auto p-4">
+        <h1 className="text-4xl font-bold mb-4 text-center">Dubai</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="md:col-span-2">
           <Carousel>
             <div>
-              <img src="image1.jpg" alt="Place 1" />
+              <img src={dubai1} alt="Place 1" />
             </div>
             <div>
-              <img src="image2.jpg" alt="Place 2" />
+              <img src={dubai2} alt="Place 2" />
             </div>
             <div>
-              <img src="image3.jpg" alt="Place 3" />
+              <img src={dubai1} alt="Place 3" />
             </div>
             <div>
-              <img src="image4.jpg" alt="Place 4" />
+              <img src={dubai2} alt="Place 4" />
             </div>
             <div>
-              <img src="image5.jpg" alt="Place 5" />
+              <img src={dubai1} alt="Place 5" />
             </div>
           </Carousel>
         </div>
@@ -48,7 +51,7 @@ const TourDetailsPage = () => {
           </form>
         </div>
       </div>
-      <div className="mt-8">
+      <div className="bg-gray-100 mt-8">
         <h2 className="text-3xl mb-4">Itinerary</h2>
         <div className="space-y-4">
           {[...Array(5)].map((_, i) => (
@@ -59,7 +62,7 @@ const TourDetailsPage = () => {
           ))}
         </div>
       </div>
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="bg-white mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="p-4 border rounded-lg shadow-lg">
           <h2 className="text-2xl mb-4">Included</h2>
           <ul className="list-disc list-inside">

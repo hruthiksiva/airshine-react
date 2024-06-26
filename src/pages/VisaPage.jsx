@@ -4,7 +4,7 @@ import ContactUsForm from '../components/ContactUsForm';
 const VisaPage = () => {
   return (
     <>
-        <section className="bg-gray-100">
+        <section className="">
             <div className="container mx-auto mt-10 px-4">
                 <div className="bg-white p-8 rounded-lg shadow-lg">
                     <div className="mb-8">

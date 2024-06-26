@@ -4,8 +4,10 @@ const TripCards = ({trips}) => {
     let filteredTrips = {}
     if (trips == 'Domestic')
         filteredTrips = tripData.domestic
-    else
+    else if (trips == 'International')
         filteredTrips = tripData.international
+    else
+        filteredTrips = tripData.popular
 
 
   return (
