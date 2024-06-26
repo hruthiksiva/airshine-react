@@ -79,7 +79,7 @@ const Navbar = () => {
                 </div>
 
                 <NavLink to="/contactus" className={linkClass}>Contact</NavLink>
-                <NavLink to="/phonecall" className={linkClass}>Phone Call</NavLink>
+                <NavLink to="/phonecall" className={linkClass} >Phone Call</NavLink>
               </div>
             </div>
           </div>
