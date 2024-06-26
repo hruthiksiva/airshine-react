@@ -78,7 +78,7 @@ const OurServices = () => {
                 <ul className="list-disc list-inside mt-2">
                     <li>Passports New Issue/Renewal</li>
                 </ul>
-                <p className="mt-4">You dont have a passport? Are you worried it is too late to get one for the upcoming trip? We can help you get your passport issued swiftly. You don't need to worry about any legal issues delaying the process.</p>
+                <p className="mt-4">You dont have a passport? Are you worried it is too late to get one for the upcoming trip? We can help you get your passport issued swiftly. You dont need to worry about any legal issues delaying the process.</p>
                 <p className="mt-4">We are just a query away from getting your issues resolved. Please do inbox us at <a href="mailto:email@example.com" className="text-blue-500 underline">email@example.com</a> or WhatsApp to voice away your concerns!</p>
             </div>
             <div>

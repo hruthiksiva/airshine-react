@@ -26,7 +26,7 @@ const VisaPage = () => {
                             <img src={visa2} alt="Visa Experts" className="w-full h-auto rounded shadow-sm" />
                         </div>
                         <div className="md:w-1/2 order-1 md:order-2">
-                            <p className="mb-4">You just have to enter your personal details, upload the required documents, and we'll take care of the rest. We will verify the documents and ensure that it is error-free. You'll receive your Visa within a week!</p>
+                            <p className="mb-4">You just have to enter your personal details, upload the required documents, and we will take care of the rest. We will verify the documents and ensure that it is error-free. You will receive your Visa within a week!</p>
                             <p>Dedicated staff members are always at your disposal to solve any queries. Please do inbox us at <a href="mailto:contact@airshineonline.in" className="text-blue-500 underline">contact@airshineonline.in</a> or contact us via WhatsApp and let us know more about your requirements.</p>
                         </div>
                     </div>
