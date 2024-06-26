@@ -15,6 +15,7 @@ import HotelsPage from './pages/HotelsPage';
 import FAQPage from './pages/FAQPage';
 import OurServicesPage from './pages/OurServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
+import TourDetailsPage from './pages/TourDetailsPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
         <Route path='/faq' element={<FAQPage />} />
         <Route path='/testimonials' element={<TestimonialsPage />} />
         <Route path='/ourservices' element={<OurServicesPage />} />
+        <Route path='/tourdetails' element={<TourDetailsPage />} />
     </Route>
   )
 )
